@@ -2,7 +2,7 @@
 Remap of Apple's Magic Keyboard in Xmodmap to emulate the Norwegian macOS keyboard layout.
 
 # Installation
-This installation assumes you are using Bash. If you're using a different shell, please edit the `install.sh` file and correct the path you your shell config.
+This installation assumes you are using Bash. If you're using a different shell, please edit the `install.sh` file and correct the path to your shell config.
 
 ## Clone Git repository
 ```bash
