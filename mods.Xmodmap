@@ -1,0 +1,13 @@
+! Custom mod:
+! Make Caps_Lock behave like Control_L
+!remove lock = Caps_Lock
+!add control = Caps_Lock
+
+! Make Super_L (Command) behave like Control_L.
+remove mod4 = Super_L
+add control = Super_L
+
+! Make Alt_L behave like Mode_switch
+remove mod5 = Mode_switch
+add mod1 = Mode_switch
+keysym Alt_L = Mode_switch Alt_L Alt_L
