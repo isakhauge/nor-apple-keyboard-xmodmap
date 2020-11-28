@@ -6,7 +6,7 @@ EXT=.Xmodmap
 KEYS=keys$EXT
 MODS=mods$EXT
 MSG="🍎️ Keyboard modified!"
-echo "" >> $HOME/.zshrc
-echo $TITLE >> $HOME/.zshrc
-echo $DESC >> $HOME/.zshrc
-echo "alias mkl=\"$BIN $PWD/$MODS && $BIN $PWD/$KEYS && echo $MSG\"" >> $HOME/.zshrc
+echo "" >> $HOME/.bashrc
+echo $TITLE >> $HOME/.bashrc
+echo $DESC >> $HOME/.bashrc
+echo "alias mkl=\"$BIN $PWD/$MODS && $BIN $PWD/$KEYS && echo $MSG\"" >> $HOME/.bashrc

@@ -8,6 +8,6 @@ remove mod4 = Super_L
 add control = Super_L
 
 ! Make Alt_L behave like Mode_switch
-!remove mod5 = Mode_switch
-!add mod1 = Mode_switch
-!keysym Alt_L = Mode_switch Alt_L Alt_L
+remove mod5 = Mode_switch
+add mod1 = Mode_switch
+keysym Alt_L = Mode_switch Alt_L Alt_L
